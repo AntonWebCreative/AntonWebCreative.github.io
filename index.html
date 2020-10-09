@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="header__menu--list">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="#">Компания</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header__login">
+                    <ul class="header__login-buttons">
+                        <li><a href="#">Вход</a></li>
+                        <li><a class="herder__login-btn" href="#">Регистрация</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="changer">
+        <div class="changer__background" style="background-image: url(images/fon1.jpg);">
+            <div class="changer__top">
+                <h1 class="changer__title">Мультивалютный обменный сервис 24/7</h1>
+                <p class="changer__text">Быстрый обмен без скрытых комиссий</p>
+                <div class="changer__inner">
+                    <div class="changer__inner-block">
+                        <div class="changer__inner-title">
+                            <h5 class="changer__title-block">Вы вносите</h5>
+                            <p class="changer__text-block">с любого кошелька</p>
+                        </div>
+                        <form class="changer__form">
+                            <label class="changer__form-label">Сумма</label>
+                            <div class="changer__form--line">
+                                <input class="changer__form-input" type="text" placeholder="0,0">
+                                <select name="currency" id="currency" class="changer__currency">
+                                    <option value="rub">RUB</option>
+                                    <option value="usd">USD</option>
+                                    <option value="eur">EUR</option>
+                                    <option value="btc">BTC</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <button class="changer__btn">
+                        ↔
+                    </button>
+
+                    <div class="changer__inner-block">
+                        <div class="changer__inner-title">
+                            <h5 class="changer__title-block">Вы получаете</h5>
+                            <p class="changer__text-block">c учетом комиссии ПС (0.5%)</p>
+                        </div>
+                        <form class="changer__form">
+                            <label class="changer__form-label">Сумма</label>
+                            <div class="changer__form--line">
+                                <input class="changer__form-input" type="text" placeholder="0,0">
+                                <select name="currency" id="currency" class="changer__currency">
+                                    <option value="rub">RUB</option>
+                                    <option value="usd">USD</option>
+                                    <option value="eur">EUR</option>
+                                    <option value="btc">BTC</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <button class="changer__exchange">Обменять</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="preferens">
+        <div class="container">
+            <div class="preferens__inner">
+                <div class="preferens__items">
+                    <div class="preferens__item">
+                        <div class="preferens__img">
+                            <img src="images/pref1.png" alt="" class="preferens__image">
+                        </div>
+                        <h4 class="preferens__title">
+                            Безопасность
+                        </h4>
+                        <p class="preferens__text">
+                            Усиленная безопасность ваших обменов, усиленная безопасность от мошенников!
+                        </p>
+                    </div>
+                    <div class="preferens__item">
+                        <div class="preferens__img">
+                            <img src="images/pref2.png" alt="" class="preferens__image">
+                        </div>
+                        <h4 class="preferens__title">
+                            Реферальная система
+                        </h4>
+                        <p class="preferens__text">
+                            На сервисе работает партнерская программа , за каждый обмен приведенного вами клиента, вы
+                            получаете 0.5% с нашей прибыли.
+                        </p>
+                    </div>
+                    <div class="preferens__item">
+                        <div class="preferens__img">
+                            <img src="images/pref3.png" alt="" class="preferens__image">
+                        </div>
+                        <h4 class="preferens__title">
+                            Онлайн поддержка
+                        </h4>
+                        <p class="preferens__text">
+                            Четыре вида поддержки для наших клиентов: Телеграмм канал, E-mail поддержка, и мобильный
+                            номер (Viber).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="history">
+        <div class="history__backgroung"
+            style="background: linear-gradient(180deg, #EFF2FA 0%, rgba(255, 255, 255, 0) 96.57%);">
+            <div class="container">
+                <div class="history__inner">
+                    <div class="history__information">
+                        <h3 class="history__title">
+                            Сервис обмена электронных
+                            валют с 5-летней историей
+                        </h3>
+                        <p class="history__text">
+                            За время работы мы приобрели репутацию проверенного партнера и делаем все
+                            возможное, чтобы ваши впечатления от нашего сервиса были только благоприятными.
+                        </p>
+                    </div>
+                    <div class="history__image">
+                        <img src="images/image1.png" alt="" class="history__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fonds">
+        <div class="container">
+            <div class="fonds__inner">
+                <h3 class="fonds__titlebox">
+                    Резерв валюты
+                </h3>
+                <div class="fonds__row">
+                    <div class="fonds__value">
+                        <div id="l1" class="fonds__logobox">
+                            <img src="images/yandex.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">Yandex RUB</h6>
+                            <p class="fonds__price">900549</p>
+                        </div>
+                    </div>
+                    <div class="fonds__value">
+                        <div id="l2" class="fonds__logobox">
+                            <img src="images/efir.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">Ethereum ETH</h6>
+                            <p class="fonds__price">123</p>
+                        </div>
+                    </div>
+                    <div class="fonds__value">
+                        <div id="l3" class="fonds__logobox">
+                            <img src="images/bitcoin.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">Bitcoin BTC</h6>
+                            <p class="fonds__price">0.63333439</p>
+                        </div>
+                    </div>
+                    <div class="fonds__value">
+                        <div id="l4" class="fonds__logobox">
+                            <img src="images/sberbank.png" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">Сбербанк RUB</h6>
+                            <p class="fonds__price">142666</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fonds__row">
+                    <div class="fonds__value">
+                        <div id="l5" class="fonds__logobox">
+                            <img src="images/UAH.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">Приват 24 UAH</h6>
+                            <p class="fonds__price">142666</p>
+                        </div>
+                    </div>
+                    <div class="fonds__value">
+                        <div id="l6" class="fonds__logobox">
+                            <img src="images/pp.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">PayPal USD</h6>
+                            <p class="fonds__price">5139.58</p>
+                        </div>
+                    </div>
+                    <div class="fonds__value">
+                        <div id="l7" class="fonds__logobox">
+                            <img src="images/PM.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">PM USD</h6>
+                            <p class="fonds__price">3192.22</p>
+                        </div>
+                    </div>
+                    <div class="fonds__value">
+                        <div id="l8" class="fonds__logobox">
+                            <img src="images/qiwi.svg" alt="" class="fonts__logo">
+                        </div>
+                        <div class="fonds__title">
+                            <h6 class="fonds__name">Qiwi RUB</h6>
+                            <p class="fonds__price">99243.321</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="abootclients">
+        <div class="container">
+            <div class="about">
+                <div class="about__titlebox">
+                    <h3 class="about__title">Что клиенты говорят о нас</h3>
+                </div>
+                <div class="about__comment-slider">
+
+                    <div class="about__comment">
+                        <p class="about__comment-text">Киви переправил деньги не на кошелек а на номер мтс будьте
+                            внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность
+                            оператору Марии.
+                        </p>
+                        <div class="about__comment-nameblock">
+                            <p class="about__comment-name">
+                                Jacob Robertson
+                            </p>
+                            <p class="about__comment-date">02.09.2020 11:36</p>
+                        </div>
+                    </div>
+
+                    <div class="about__comment">
+                        <p class="about__comment-text">
+                            3-й раз выполняю обмен. все как всегда на отлично! транзакции выполняются в течение 15-20
+                            мин. что очень быстро + лучший ценник!
+                        </p>
+                        <div class="about__comment-nameblock">
+                            <p class="about__comment-name">
+                                Morris Robertson
+                            </p>
+                            <p class="about__comment-date">02.09.2020 11:36</p>
+                        </div>
+                    </div>
+
+                    <div class="about__comment">
+                        <p class="about__comment-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsam rem, alias
+                            eligendi atque minima voluptatum quam culpa velit sed aperiam asperiores vero eveniet
+                            maiores nostrum! Velit cupiditate iure similique?
+                        </p>
+                        <div class="about__comment-nameblock">
+                            <p class="about__comment-name">
+                                Albert Einstein
+                            </p>
+                            <p class="about__comment-date">02.09.2020 11:36</p>
+                        </div>
+                    </div>
+
+                    <div class="about__comment">
+                        <p class="about__comment-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, alias consequatur omnis
+                            culpa esse delectus quia non ipsa dolores sit explicabo facilis ea nihil, ipsum iste eos
+                            similique? Recusandae, vitae!
+                        </p>
+                        <div class="about__comment-nameblock">
+                            <p class="about__comment-name">
+                                Vladimir Zelensky
+                            </p>
+                            <p class="about__comment-date">02.09.2020 11:36</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="meeteng">
+        <div class="container">
+            <div class="meeting__background">
+                <div class="meeting__inner">
+                    <img class="meeting__picture" src="images/spiral.png" alt="">
+                    <div class="meeting__right-block">
+                        <h3 class="meeting__title">
+                            Будем рады предоставить Вам качественный обмен валют на нашем
+                            сервисе!
+                        </h3>
+                        <p class="meeting__text">
+                            Начните обмен прямо сейчас
+                        </p>
+                        <button class="meeting__btn"><a href="#"></a>Начать обмен</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                    <p class="footer__text">
+                        Сервис обмена электронных валют
+                    </p>
+                </div>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="">Карта сайта</a></li>
+                    <li class="footer__menu-item"><a href="">Предупреждение</a></li>
+                    <li class="footer__menu-item"><a href="">Правила сайта</a></li>
+                    <li class="footer__menu-item"><a href="">Обмен</a></li>
+                </ul>
+                <ul class="footer__contacts">
+                    <li class="footer__contact"><a href="#" style="content: url(images/vk.svg);"></a></li>
+                    <li class="footer__contact"><a href="#" style="content: url(images/fb.svg);"></a></li>
+                    <li class="footer__contact"><a href="#" style="content: url(images/inst.svg);"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
